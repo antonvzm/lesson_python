@@ -183,7 +183,7 @@ elif number_player == 2:
         print(f'Победил {name_player_first}, ты молодец! Не расстраивайся {name_player_second}, мы же оба понимаем что ты поддавался:3')
     else:
         print(f'Победил {name_player_second}, ты молодец!Не расстраивайся {name_player_first}, мы же оба понимаем что ты поддавался:3')
-elif number_player == 0:
+else:
     name_player_first = 'R2D2'
     name_player_second = 'Бэндер'
     print('Смотреть как кто то играет не так интересно, но если ты настаиваешь:D')
